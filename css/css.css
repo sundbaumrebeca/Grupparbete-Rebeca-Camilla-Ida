@@ -1,18 +1,17 @@
 .wrapper {
-    display: grid;
+    display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-areas: 
-	"sidebar header header"
-	"sidebar articles articles"
-    "siddebar articles articles"
-    "sidebar articles articles"
-	"footer footer footer";
+	"header header header"
+	"aside articles articles"
+    "footer footer footer";
 	margin:2%;
 	grid-gap: 25px;
 }
 
-.Header {
-    background-color:lightgrey;
+.header {
+    background-color:red;
+    grid-area:header;
     
 
 
@@ -20,11 +19,14 @@
 
 .articles {
     background-color:yellow;
-    
+    grid-area:aricles;
+     
+	
 }
 
-.Aside {
+.aside {
     background-color:pink;
+    grid-area:aside;
     
 
 
@@ -32,6 +34,7 @@
 
 .footer {
     background-color:lightsteelblue;
+    grid-area:footer;
     
 
 }
