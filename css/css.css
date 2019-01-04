@@ -1,4 +1,14 @@
 .wrapper {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: 
+	"sidebar header header"
+	"sidebar articles articles"
+    "siddebar articles articles"
+    "sidebar articles articles"
+	"footer footer footer";
+	margin:2%;
+	grid-gap: 25px;
 }
 
 .Header {
