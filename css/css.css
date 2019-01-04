@@ -12,15 +12,26 @@
 }
 
 .Header {
+    background-color:light grey;
+    
+
+
 }
 
 .articles {
+    background-color:yellow;
+    
 }
 
 .Aside {
+    background-color:pink;
+    
+
 
 }
 
 .footer {
+    background-color:green;
+    
 
 }
