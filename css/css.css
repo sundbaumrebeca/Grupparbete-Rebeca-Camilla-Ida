@@ -5,36 +5,50 @@
 	"header header header"
 	"aside articles articles"
     "footer footer footer";
-	margin:2%;
 	grid-gap: 25px;
 }
 
 .header {
     background-color:red;
     grid-area:header;
-    
-
-
 }
 
 .articles {
+    grid-template-columns:1fr 1fr; 
+    display:grid; 
+    grid-area:articles;
+    grid-template-areas:
+    "article1 article1"
+    "article2 article2"
+    "article3 article4";
     background-color:yellow;
-    grid-area:aricles;
-     
+    
+    
 	
+}
+
+.article1 {
+grid-area:article1;
+}
+
+.article2 {
+grid-area:article2;
+}
+
+.article3 {
+grid-area:article3;
+}
+
+.article4 {
+grid-area:article4;
 }
 
 .aside {
     background-color:pink;
     grid-area:aside;
-    
-
-
 }
 
 .footer {
     background-color:lightsteelblue;
     grid-area:footer;
-    
-
 }
