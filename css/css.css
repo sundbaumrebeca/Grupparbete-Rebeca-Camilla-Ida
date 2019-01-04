@@ -4,7 +4,7 @@
 	grid-template-areas: 
 	"sidebar header header"
 	"sidebar articles articles"
-    "siddebar articles articles"
+    "sidebar articles articles"
     "sidebar articles articles"
 	"footer footer footer";
 	margin:2%;
