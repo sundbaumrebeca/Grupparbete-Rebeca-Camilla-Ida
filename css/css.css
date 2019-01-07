@@ -56,18 +56,17 @@
 
 
 .Aside {
-    background-color:lightseagreen;
+    background-color:lightgrey;
     grid-area:aside;
     padding: 25px 50px 25px;
 
 }
 
 .footer {
-    background-color:lightsteelblue;
-    grid-area:footer;
+    background-color:lightgrey;
+    grid-area: footer;
     padding: 25px 50px 25px;
-    
-
+    font-size: 10px;
 }
 
 p {
@@ -86,4 +85,9 @@ li {
     border-style: dashed;
     border-color: lightsalmon;
     padding: 10px;
+}
+
+a {
+    color: lightcoral;
+    text-decoration: none;
 }
