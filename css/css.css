@@ -49,6 +49,10 @@
     grid-area:article4;
     }
 
+    .article1 {
+        width: 150px;
+        height: 200px;
+    }
 
 .Aside {
     background-color:lightseagreen;
