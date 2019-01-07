@@ -11,7 +11,7 @@
 }
 
 .Header {
-    background-color:lightgrey;
+    background-color: bisque;
     font-family: 'Quicksand', sans-serif;
     grid-area:header;
     padding: 25px 50px 25px;
@@ -73,4 +73,17 @@
 p {
     font-family: 'Quicksand', sans-serif;
     color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    border-style: dashed;
+    border-color: lightsalmon;
+    padding: 10px;
 }
