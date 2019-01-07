@@ -35,10 +35,15 @@
 
 .article1 {
     grid-area:article1;
+    
     }
     
     .article2 {
     grid-area:article2;
+    grid-template-columns:1fr 1fr; 
+    display:grid; 
+    grid-template-areas:
+    
     }
     
     .article3 {
@@ -47,6 +52,7 @@
     
     .article4 {
     grid-area:article4;
+     
     }
 
 
