@@ -20,10 +20,10 @@
 }
 
   
-.Header,ul {margin-left: 20em;
+.Header ul {margin-left: 20em;
     padding: 1em;}
     
-.Header,li {
+.Header li {
         list-style: none;
         font-size: 1.2em;
       font-family: Baskerville Old Face; 
