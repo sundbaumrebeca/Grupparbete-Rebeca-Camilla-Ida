@@ -87,6 +87,8 @@
     grid-area: footer;
     padding: 25px 50px 25px;
     font-size: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 p {
@@ -94,14 +96,19 @@ p {
     color: black;
 }
 
-ul {
+.Aside ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+
 }
 
 li {
-    display: inline;
+    
     border-style: dashed;
     border-color: lightsalmon;
     padding: 10px;
