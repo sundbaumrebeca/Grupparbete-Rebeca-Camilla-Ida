@@ -37,14 +37,12 @@
     grid-area:article1;
     
     }
-    
+
     .article2 {
-    grid-area:article2;
-    grid-template-columns:1fr 1fr; 
-    display:grid; 
-    grid-template-areas:
-    
-    }
+        grid-area: article2;
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+    }   
     
     .article3 {
     grid-area:article3;
