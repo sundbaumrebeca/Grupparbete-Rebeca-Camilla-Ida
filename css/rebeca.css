@@ -1,0 +1,120 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+	"aside articles articles"
+    "footer footer footer";
+	margin:2%;
+	grid-gap: 25px;
+
+}
+
+.Header {
+    background-color: bisque;
+    font-family: 'Quicksand', sans-serif;
+    grid-area:header;
+    padding: 25px 50px 25px;
+    
+
+}
+
+  
+.Header ul {margin-left: 20em;
+    padding: 1em;}
+    
+.Header li {
+        list-style: none;
+        font-size: 1.2em;
+      font-family: Baskerville Old Face; 
+      padding: 1em;
+        border: 2px solid silver;
+        border-radius: 10px;
+        margin: 20px;
+        box-shadow: 2px 5px 5px grey;
+      display: inline;
+      }
+      
+      
+      
+ a:hover {
+          background-color: skyblue; 
+     }
+ 
+.articles {
+    background-color:lightsalmon;
+    padding: 25px 50px 25px;
+    grid-template-columns:1fr 2fr; 
+    display:grid; 
+    grid-area:articles;
+    grid-template-areas:
+    "article1 article1"
+    "article2 article2"
+    "article3 article4";
+    grid-column-gap: 50px;
+       
+}
+
+.article1 {
+    grid-area:article1;
+  grid-template-columns: 1fr 1fr;
+    }
+    
+    .article2 {
+    grid-area:article2;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    .article3 {
+    grid-area:article3;
+    }
+    
+    .article4 {
+    grid-area:article4;
+    }
+
+
+.Aside {
+    background-color:lightgrey;
+    grid-area:aside;
+    padding: 25px 50px 25px;
+    font-size: 12px
+}
+
+
+.footer {
+    background-color:lightgrey;
+    grid-area: footer;
+    padding: 25px 50px 25px;
+    font-size: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+.Aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+
+}
+
+li {
+    
+    border-style: dashed;
+    border-color: lightsalmon;
+    padding: 10px;
+}
+
+a {
+    color: lightcoral;
+    text-decoration: none;
+}
