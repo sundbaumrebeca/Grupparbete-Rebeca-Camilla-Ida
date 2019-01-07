@@ -35,6 +35,8 @@
 
 .article1 {
     grid-area:article1;
+    width: 150px;
+    height: 200px;
     }
     
     .article2 {
@@ -49,10 +51,7 @@
     grid-area:article4;
     }
 
-    .article1 {
-        width: 150px;
-        height: 200px;
-    }
+
 
 .Aside {
     background-color:lightseagreen;
