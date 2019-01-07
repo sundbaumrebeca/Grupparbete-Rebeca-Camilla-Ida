@@ -1,43 +1,71 @@
-.wrapper {
+.wrap {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 20%;
+    background-color: bisque;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.grid-container {
     display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-areas: 
-	"sidebar header header"
-	"sidebar articles articles"
-    "sidebar articles articles"
-    "sidebar articles articles"
-	"footer footer footer";
-	margin:2%;
-	grid-gap: 25px;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
 }
 
-.Header {
-    background-color:lightgrey;
-    font-family: 'Quicksand', sans-serif;
-    
-
-
+.grid-item {
+    padding: 20px;
+}
+.grid-nest {
+    padding: 20px;
+    background-image: url("file:///Users/idakenttamaa/Desktop/Inlämning 3/CSS/IMG/IMG_4417.JPG");
 }
 
-.articles {
-    background-color:lightsalmon;
-    
+.Rufus1 {
+ width: 150px;
+ height: 200px;
 }
 
-.Aside {
-    background-color:lightseagreen;
-    
+.Rufus2 {
+    width: 150px;
+    height: 200px;
+   }
 
+.Rufus3 {
+    width: 300px;
+    height: 200px;
+   }
 
+.Rufus4 {
+    width: 300px;
+    height: 200px;
+   }
+
+#one {
+    background-color: lightgrey;
 }
-
-.footer {
-    background-color:lightsteelblue;
-    
-
+#two {
+    background-color: lightgrey;
 }
-
-p {
-    font-family: 'Quicksand', sans-serif;
-    color: black;
+#three {
+    background-color: lightgrey;
+}
+#four {
+    background-color: lightgrey;
+}
+#five {
+    background-color: lightgrey;
+}
+#six {
+    background-color: lightgrey;
+}
+footer {
+    color: lightsalmon;
 }
