@@ -2,35 +2,60 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-    "sidebar header header"
-    "sidebar articles articles"
-    "sidebar articles articles"
-    "sidebar articles articles"
+    "header header header"
+	"aside articles articles"
     "footer footer footer";
-    margin:2%;
-    grid-gap: 25px;
+	margin:2%;
+	grid-gap: 25px;
+
 }
 
 .Header {
     background-color:lightgrey;
     font-family: 'Quicksand', sans-serif;
+    grid-area:header;
     
 
 }
 
 .articles {
     background-color:lightsalmon;
-    
+    grid-template-columns:1fr 1fr; 
+    display:grid; 
+    grid-area:articles;
+    grid-template-areas:
+    "article1 article1"
+    "article2 article2"
+    "article3 article4";
+       
 }
+
+.article1 {
+    grid-area:article1;
+    }
+    
+    .article2 {
+    grid-area:article2;
+    }
+    
+    .article3 {
+    grid-area:article3;
+    }
+    
+    .article4 {
+    grid-area:article4;
+    }
+
 
 .Aside {
     background-color:lightseagreen;
-    
+    grid-area:aside;
 
 }
 
 .footer {
     background-color:lightsteelblue;
+    grid-area:footer;
     
 
 }
