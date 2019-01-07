@@ -14,12 +14,14 @@
     background-color:lightgrey;
     font-family: 'Quicksand', sans-serif;
     grid-area:header;
+    padding: 25px 50px 25px;
     
 
 }
 
 .articles {
     background-color:lightsalmon;
+    padding: 25px 50px 25px;
     grid-template-columns:1fr 1fr; 
     display:grid; 
     grid-area:articles;
@@ -27,6 +29,7 @@
     "article1 article1"
     "article2 article2"
     "article3 article4";
+    grid-column-gap: 50px;
        
 }
 
@@ -50,12 +53,14 @@
 .Aside {
     background-color:lightseagreen;
     grid-area:aside;
+    padding: 25px 50px 25px;
 
 }
 
 .footer {
     background-color:lightsteelblue;
     grid-area:footer;
+    padding: 25px 50px 25px;
     
 
 }
