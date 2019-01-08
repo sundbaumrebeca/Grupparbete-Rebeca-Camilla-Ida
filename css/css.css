@@ -176,3 +176,7 @@ margin-left: 2em;
 label {margin: 1em; }
 
 input[type="text"] {margin: 1em; }
+
+div {
+    border-color: lightpink;
+}
