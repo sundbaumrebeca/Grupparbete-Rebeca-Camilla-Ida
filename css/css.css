@@ -121,6 +121,11 @@ a {
     color: black;
     text-decoration: none;
 }
+
+a:hover {
+    color:rgb(255, 226, 231);
+}
+
 fieldset {width: 10em;
 color: rgb(50, 238, 50); 
 border-color: lightgreen;
