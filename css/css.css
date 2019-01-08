@@ -39,6 +39,7 @@
       
  a:hover {
           background-color: lightgrey; 
+          color: papayawhip;
      }
  
 .articles {
@@ -122,15 +123,13 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color:rgb(255, 226, 231);
-}
 
 fieldset {width: 10em;
 color: rgb(50, 238, 50); 
 border-color: lightgreen;
 border-width: 6px;
 } 
+
 form {}
 
 #Skicka {background-color: rgb(127, 247, 127);
