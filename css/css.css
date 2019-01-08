@@ -92,7 +92,7 @@
 
 
 .Aside {
-    background-color: lightgrey;
+    background-color: beige;
     grid-area: aside;
     padding: 25px 50px 25px;
     font-size: 12px;
@@ -106,7 +106,7 @@
     padding: 0.5em;}
 
 .footer {
-    background-color:lightgrey;
+    background-color:beige;
     grid-area: footer;
     padding: 25px 50px 25px;
     font-size: 10px;
