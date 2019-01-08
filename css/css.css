@@ -15,13 +15,17 @@
     font-family: 'Quicksand', sans-serif;
     grid-area:header;
     padding: 25px 50px 25px;
+    border-style: solid;
+    border-width: 2,5px;
     
 
 }
 
   
 .Header ul {margin-left: 20em;
-    padding: 1em;}
+    padding: 1em;
+    
+}
     
 .Header li {
         list-style: none;
@@ -33,6 +37,8 @@
         margin: 20px;
         box-shadow: 2px 5px 5px grey;
       display: inline;
+      background-color:white;
+      
       }
       
       
@@ -53,25 +59,35 @@
     "article2 article2"
     "article3 article4";
     grid-column-gap: 50px;
+    border-style: solid;
+    border-width: 2,5px;
        
 }
 
 .article1 {
     grid-area:article1;
-  grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Quicksand', sans-serif;
+    padding: 25px 25px 25px;
     }
     
     .article2 {
     grid-area:article2;
-      grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Quicksand', sans-serif;
+    padding: 25px 25px 25px;
     }
     
     .article3 {
     grid-area:article3;
+    font-family: 'Quicksand', sans-serif;
+    padding: 25px 25px 25px;
     }
     
     .article4 {
     grid-area:article4;
+    font-family: 'Quicksand', sans-serif;
+    padding: 25px 25px 25px;
     }
 
 
@@ -80,10 +96,13 @@
     grid-area:aside;
     padding: 25px 50px 25px;
     font-size: 12px
+    padding: 25px 25px 25px;
+    border-style: solid;
+    border-width: 2,5px;
 }
 .Aside li:before {
     content: '✓';
-padding: 0.5em;}
+    padding: 0.5em;}
 
 .footer {
     background-color:lightgrey;
@@ -92,9 +111,13 @@ padding: 0.5em;}
     font-size: 10px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-style: solid;
+    border-width: 2,5px;
 }
-.footer a {font-size: 2em;
+.footer a {
+    font-size: 2em;
 }
+
 p {
     font-family: 'Quicksand', sans-serif;
     color: black;
@@ -124,20 +147,24 @@ a {
 }
 
 
-fieldset {width: 10em;
+fieldset {
+width: 10em;
 color: lightcoral; 
 border-color: lightsalmon;
 border-width: 6px;
 } 
+
 form {margin-left: 29em; }
 
-#Skicka {background-color: lightsalmon;
+#Skicka {
+background-color: lightsalmon;
 font-size: 1em;
 margin-top: 1em;}
 button {background-color: lightsalmon;
 font-size: 1em;  }
 
-.tillbaka {border: 2px solid pink; 
+.tillbaka {
+border: 2px solid pink; 
 padding: 0.7em;
 border-radius: 3px;
 background-color: lightgrey;
