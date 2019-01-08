@@ -144,3 +144,7 @@ background-color: lightgrey;
 margin-left: 2em; 
  }
 .rubrik {text-align: center;}
+
+label {margin: 1em; }
+
+input[type="text"] {margin: 1em; }
