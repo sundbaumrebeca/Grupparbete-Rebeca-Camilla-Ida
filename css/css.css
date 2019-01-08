@@ -91,15 +91,16 @@
     }
 
 
-.Aside {
-    background-color:beige;
-    grid-area:aside;
+.aside {
+    background-color: beige;
+    grid-area: aside;
     padding: 25px 50px 25px;
-    font-size: 12px
+    font-size: 12px;
     padding: 25px 25px 25px;
     border-style: solid;
     border-width: 2,5px;
 }
+
 .Aside li:before {
     content: '✓';
     padding: 0.5em;}
