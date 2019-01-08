@@ -80,7 +80,9 @@
     padding: 25px 50px 25px;
     font-size: 12px
 }
-
+.Aside li:before {
+    content: '✓';
+padding: 1em;}
 
 .footer {
     background-color:lightgrey;
