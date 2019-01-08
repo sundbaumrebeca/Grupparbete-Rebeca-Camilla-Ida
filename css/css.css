@@ -92,7 +92,8 @@ padding: 0.5em;}
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
+.footer a {font-size: 2em;
+}
 p {
     font-family: 'Quicksand', sans-serif;
     color: black;
