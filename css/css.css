@@ -11,7 +11,7 @@
 }
 
 .Header {
-    background-color: bisque;
+    background-color:beige;
     font-family: 'Quicksand', sans-serif;
     grid-area:header;
     padding: 25px 50px 25px;
@@ -27,7 +27,7 @@
         list-style: none;
         font-size: 1.2em;
       font-family: Baskerville Old Face; 
-      padding: 1em;
+        padding: 1em;
         border: 2px solid silver;
         border-radius: 10px;
         margin: 20px;
@@ -42,7 +42,7 @@
      }
  
 .articles {
-    background-color:lightsalmon;
+    background-color:pink;
     padding: 25px 50px 25px;
     grid-template-columns:1fr 2fr; 
     display:grid; 
@@ -75,7 +75,7 @@
 
 
 .Aside {
-    background-color:lightgrey;
+    background-color:beige;
     grid-area:aside;
     padding: 25px 50px 25px;
     font-size: 12px
@@ -115,6 +115,6 @@ li {
 }
 
 a {
-    color: lightcoral;
+    color: black;
     text-decoration: none;
 }
