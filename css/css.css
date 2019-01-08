@@ -136,3 +136,10 @@ form {}
 font-size: 1em;}
 button {background-color: rgb(127, 247, 127);
 font-size: 1em;  }
+
+.tillbaka {border: 2px solid pink; 
+padding: 0.7em;
+border-radius: 3px;
+background-color: lightgrey;
+margin-left: 2em; 
+ }
