@@ -122,15 +122,16 @@ a {
     text-decoration: none;
 }
 fieldset {width: 10em;
-color: rgb(50, 238, 50); 
-border-color: lightgreen;
+color: lightcoral; 
+border-color: lightsalmon;
 border-width: 6px;
 } 
-form {}
+form {margin-left: 29em; }
 
-#Skicka {background-color: rgb(127, 247, 127);
-font-size: 1em;}
-button {background-color: rgb(127, 247, 127);
+#Skicka {background-color: lightsalmon;
+font-size: 1em;
+margin-top: 1em;}
+button {background-color: lightsalmon;
 font-size: 1em;  }
 
 .tillbaka {border: 2px solid pink; 
@@ -139,3 +140,4 @@ border-radius: 3px;
 background-color: lightgrey;
 margin-left: 2em; 
  }
+.rubrik {text-align: center;}
