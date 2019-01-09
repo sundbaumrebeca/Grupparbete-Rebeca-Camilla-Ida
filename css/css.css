@@ -30,20 +30,6 @@
 }
     
 .Header li {
-<<<<<<< HEAD
-        list-style: none;
-        font-size: 1.3em;
-        font-family: 'Bookman Old Style', sans-serif; 
-        padding: 1em;
-        border: 2px solid silver;
-        border-radius: 10px;
-        margin: 20px;
-        box-shadow: 2px 5px 5px grey;
-        display: inline;
-        background-color:white;
-      
-      }    
-=======
     list-style: none;
     font-size: 1.3em;
     font-family: 'Bookman Old Style', sans-serif; 
@@ -57,7 +43,6 @@
 }
       
       
->>>>>>> 97d4a274c3914502fd012e9892423ff6862d461f
       
  a:hover {
     background-color: papayawhip; 
