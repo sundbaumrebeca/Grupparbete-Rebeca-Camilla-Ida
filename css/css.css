@@ -45,8 +45,7 @@
       
       
  a:hover {
-          background-color: pink; 
-          color: papayawhip;
+          background-color: papayawhip; 
      }
  
 .articles {
@@ -105,7 +104,8 @@
 
 .Aside li:before {
     content: '✓';
-    padding: 0.5em;}
+    padding: 0.5em;
+}
 
 .footer {
     background-color:beige;
@@ -156,16 +156,25 @@ width: 10em;
 color: lightcoral; 
 border-color: lightsalmon;
 border-width: 6px;
+border-radius: 5px;
 } 
 
-form {margin-left: 29em; }
+form {
+    margin-left: 29em; 
+}
 
 #Skicka {
 background-color: lightsalmon;
 font-size: 1em;
-margin-top: 1em;}
-button {background-color: lightsalmon;
-font-size: 1em;  }
+margin-top: 1em;
+font-family: 'Quicksand';
+}
+
+button {
+    background-color: lightsalmon;
+font-size: 1em;  
+font-family: 'Quicksand';
+}
 
 .tillbaka {
 border: 2px solid pink; 
@@ -174,11 +183,20 @@ border-radius: 3px;
 background-color: lightgrey;
 margin-left: 2em; 
  }
-.rubrik {text-align: center;}
 
-label {margin: 1em; }
+.rubrik {
+    text-align: center;
+    font-family: 'Quicksand';
+}
 
-input[type="text"] {margin: 1em; }
+label {
+    margin: 1em; 
+    font-family: 'Quicksand';
+}
+
+input[type="text"] {
+    margin: 1em; 
+}
 
 div {
     border-color: lightpink;
