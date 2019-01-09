@@ -31,14 +31,14 @@
 .Header li {
         list-style: none;
         font-size: 1.3em;
-      font-family: 'Bookman Old Style', sans-serif; 
+        font-family: 'Bookman Old Style', sans-serif; 
         padding: 1em;
         border: 2px solid silver;
         border-radius: 10px;
         margin: 20px;
         box-shadow: 2px 5px 5px grey;
-      display: inline;
-      background-color:white;
+        display: inline;
+        background-color:white;
       
       }
       
@@ -152,11 +152,11 @@ a {
 
 
 fieldset {
-width: 10em;
-color: lightcoral; 
-border-color: lightsalmon;
-border-width: 6px;
-border-radius: 5px;
+    width: 10em;
+    color: lightcoral; 
+    border-color: lightsalmon;
+    border-width: 6px;
+    border-radius: 5px;
 } 
 
 form {
@@ -164,24 +164,24 @@ form {
 }
 
 #Skicka {
-background-color: lightsalmon;
-font-size: 1em;
-margin-top: 1em;
-font-family: 'Quicksand';
+    background-color: lightsalmon;
+    font-size: 1em;
+    margin-top: 1em;
+    font-family: 'Quicksand';
 }
 
 button {
     background-color: lightsalmon;
-font-size: 1em;  
-font-family: 'Quicksand';
+    font-size: 1em;  
+    font-family: 'Quicksand';
 }
 
 .tillbaka {
-border: 2px solid pink; 
-padding: 0.7em;
-border-radius: 3px;
-background-color: lightgrey;
-margin-left: 2em; 
+    border: 2px solid pink; 
+    padding: 0.7em;
+    border-radius: 3px;
+    background-color: lightgrey;
+    margin-left: 2em; 
  }
 
 .rubrik {
