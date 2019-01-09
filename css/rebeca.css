@@ -1,4 +1,220 @@
-h2 {
-color:red;
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+	"articles articles aside"
+    "footer footer footer";
+	margin:2%;
+	grid-gap: 25px;
 
 }
+
+.Header {
+    background-color:beige;
+    font-family: 'Quicksand', sans-serif;
+    grid-area:header;
+    padding: 25px 50px 25px;
+    border-style: solid;
+    border-width: 2,5px;
+    border-color: lightpink;
+    
+
+}
+
+
+  
+.Header ul {margin-left: 20em;
+    padding: 1em;
+    
+}
+    
+.Header li {
+        list-style: none;
+        font-size: 1.3em;
+      font-family: Baskerville Old Face, sans-serif; 
+        padding: 1em;
+        border: 2px solid silver;
+        border-radius: 10px;
+        margin: 20px;
+        box-shadow: 2px 5px 5px grey;
+      display: inline;
+      background-color:white;
+      
+      }
+
+      
+      
+
+}
+
+a:hover {
+    background-color: papayawhip; 
+}
+
+.articles {
+background-color:pink;
+padding: 25px 50px 25px;
+grid-template-columns:1fr 2fr; 
+display:grid; 
+grid-area:articles;
+grid-template-areas:
+"article1 article2"
+"article3 article3"
+"article4 article4";
+grid-column-gap: 50px;
+border-style: solid;
+border-width: 2,5px;
+ 
+}
+
+.article1 {
+grid-area:article1;
+grid-template-columns: 1fr 1fr;
+font-family: 'Quicksand', sans-serif;
+padding: 25px 25px 25px;
+}
+
+.article2 {
+grid-area:article2;
+grid-template-columns: 1fr 1fr;
+font-family: 'Quicksand', sans-serif;
+padding: 25px 25px 25px;
+}
+
+.article3 {
+grid-area:article3;
+grid-template-columns:1 fr 1fr; 
+font-family: 'Quicksand', sans-serif;
+padding: 25px 25px 25px;
+}
+
+.article4 {
+grid-area:article4;
+font-family: 'Quicksand', sans-serif;
+padding: 25px 25px 25px;
+}
+
+.Aside {
+    background-color: beige;
+    grid-area: aside;
+    padding: 25px 50px 25px;
+    font-size: 12px;
+    padding: 25px 25px 25px;
+    border-style: solid;
+    border-width: 2,5px;
+    border-color: lightpink;
+}
+
+.Aside li:before {
+    content: '✓';
+    padding: 0.5em;
+}
+
+.footer {
+    background-color:beige;
+    grid-area: footer;
+    padding: 25px 50px 25px;
+    font-size: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-style: solid;
+    border-width: 2,5px;
+    border-color: lightpink;
+}
+.footer a {
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+.Aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+
+}
+
+li {
+    
+    border-style: dashed;
+    border-color: pink;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+fieldset {
+    width: 10em;
+    color: lightcoral; 
+    border-color: lightsalmon;
+    border-width: 6px;
+    border-radius: 5px;
+    } 
+    
+    form {
+        margin-left: 29em; 
+    }
+    
+    #Skicka {
+    background-color: lightsalmon;
+    font-size: 1em;
+    margin-top: 1em;
+    font-family: 'Quicksand';
+    }
+
+    button {
+        background-color: lightsalmon;
+    font-size: 1em;  
+    font-family: 'Quicksand';
+    }
+    
+    .tillbaka {
+    border: 2px solid pink; 
+    padding: 0.7em;
+    border-radius: 3px;
+    background-color: lightgrey;
+    margin-left: 2em; 
+     }
+
+     .rubrik {
+        text-align: center;
+        font-family: 'Quicksand';
+    }
+    
+    label {
+        margin: 1em; 
+        font-family: 'Quicksand';
+    }
+    
+    input[type="text"] {
+        margin: 1em; 
+    }
+
+    
+div {
+    border-color: lightpink;
+}
+
+img {
+    border-style: dotted;
+    border-color: beige;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
