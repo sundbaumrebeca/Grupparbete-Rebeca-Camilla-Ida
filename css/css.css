@@ -23,30 +23,30 @@
 }
 
   
-.Header ul {margin-left: 20em;
+.Header ul {
+    margin-left: 20em;
     padding: 1em;
     
 }
     
 .Header li {
-        list-style: none;
-        font-size: 1.3em;
-        font-family: 'Bookman Old Style', sans-serif; 
-        padding: 1em;
-        border: 2px solid silver;
-        border-radius: 10px;
-        margin: 20px;
-        box-shadow: 2px 5px 5px grey;
-        display: inline;
-        background-color:white;
-      
-      }
+    list-style: none;
+    font-size: 1.3em;
+    font-family: 'Bookman Old Style', sans-serif; 
+    padding: 1em;
+    border: 2px solid silver;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 2px 5px 5px grey;
+    display: inline;
+    background-color:white;
+}
       
       
       
  a:hover {
-          background-color: papayawhip; 
-     }
+    background-color: papayawhip; 
+}
  
 .articles {
     background-color:pink;
@@ -69,26 +69,26 @@
     grid-template-columns: 1fr 1fr;
     font-family: 'Quicksand', sans-serif;
     padding: 25px 25px 25px;
-    }
+}
     
     .article2 {
     grid-area:article2;
     grid-template-columns: 1fr 1fr;
     font-family: 'Quicksand', sans-serif;
     padding: 25px 25px 25px;
-    }
+}
     
     .article3 {
     grid-area:article3;
     font-family: 'Quicksand', sans-serif;
     padding: 25px 25px 25px;
-    }
+}
     
     .article4 {
     grid-area:article4;
     font-family: 'Quicksand', sans-serif;
     padding: 25px 25px 25px;
-    }
+}
 
 
 .Aside {
@@ -118,6 +118,7 @@
     border-width: 2.5px;
     border-color: lightpink;
 }
+
 .footer a {
     font-size: 2em;
 }
@@ -182,7 +183,7 @@ button {
     border-radius: 3px;
     background-color: lightgrey;
     margin-left: 2em; 
- }
+}
 
 .rubrik {
     text-align: center;
@@ -212,4 +213,4 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
