@@ -10,7 +10,7 @@
     "article3 article4";
     grid-column-gap: 50px;
     border-style: solid;
-    border-width: 2,5px;
+    border-width: 2.5px;
     font-size: 13px;
     border-style: dotted;
     border-color: lightgray;
@@ -84,7 +84,7 @@ body {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border-style: solid;
-    border-width: 2,5px;
+    border-width: 2.5px;
     border-color: lightgray;
     border-style: dotted;
 }
