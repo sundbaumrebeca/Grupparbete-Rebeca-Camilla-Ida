@@ -59,9 +59,9 @@ grid-template-columns:1fr 2fr;
 display:grid; 
 grid-area:articles;
 grid-template-areas:
-"article1 article1"
-"article2 article2"
-"article3 article4";
+"article1 article2"
+"article3 article3"
+"article4 article4";
 grid-column-gap: 50px;
 border-style: solid;
 border-width: 2,5px;
@@ -84,6 +84,7 @@ padding: 25px 25px 25px;
 
 .article3 {
 grid-area:article3;
+grid-template-columns:1 fr 1fr; 
 font-family: 'Quicksand', sans-serif;
 padding: 25px 25px 25px;
 }
@@ -217,4 +218,3 @@ img {
     width: 50%;
   }
 
-  
