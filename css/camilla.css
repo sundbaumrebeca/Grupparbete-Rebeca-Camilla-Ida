@@ -117,6 +117,7 @@ margin: 1em;
     border-style: solid;
     border-width: 2.5px;
     border-color: lightslategrey;
+    margin: 1em;
 }
 .footer h3 {
 	display: inline; 
@@ -165,4 +166,6 @@ margin: 1em;
         margin: 1em;
         background-color: white; 
       }
-     
+     #bulle {border-style: outset;
+         border-radius: 5px;
+    }
