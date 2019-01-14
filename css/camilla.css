@@ -1,11 +1,9 @@
 .wrapper {
     display: grid;
     grid-gap: 1em;
-    grid-template-columns: repeat (auto-fit, minmax(205px, 1fr;));
+    grid-template-columns: repeat (auto-fit, minmax(205px, 1fr));
   background-color: lightsteelblue;
-  color: black;
-
-}
+  color: black; }
 .nested {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
