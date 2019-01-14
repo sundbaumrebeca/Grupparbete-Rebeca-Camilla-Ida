@@ -169,3 +169,4 @@ margin: 1em;
      #bulle {border-style: outset;
          border-radius: 5px;
     }
+    .article4 > h4 {font-style: italic; }
