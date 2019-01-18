@@ -44,6 +44,7 @@
     border-width: 2.5px;
     border-color: lightslategrey;
     box-shadow: 4px 5px lightgray;
+    border-radius: 8px; 
     
 }
 h1 { 
@@ -88,6 +89,7 @@ a {
     padding: 25px 25px 25px;
     border: 2.5px solid lightslategray;
     box-shadow: 2px 3px lightgray;
+    border-radius: 8px;
 }
 .aside > p {
     font-family: 'Indie Flower', cursive;
@@ -146,6 +148,7 @@ a {
     border-width: 2.5px;
     border-color: lightslategrey;
     margin: 1em;
+    border-radius: 8px;
 }
 .besok > a { 
     margin: 0.5em;
@@ -209,4 +212,23 @@ a {
     font-style: italic; 
     
 }
-   
+
+* {
+    box-sizing: border-box;
+  }
+
+.img-container {  
+    float: left;
+    width: 33%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .img-container > img {
+      width: 150px;
+      height: 100px; 
+  }
