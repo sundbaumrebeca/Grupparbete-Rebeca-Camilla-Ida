@@ -13,7 +13,7 @@
 .Header {
     background-color:beige;
     font-family: 'Quicksand', sans-serif;
-
+    grid-area:header;
     padding: 25px 50px 25px;
     border-style: solid;
     border-width: 2.5px;
