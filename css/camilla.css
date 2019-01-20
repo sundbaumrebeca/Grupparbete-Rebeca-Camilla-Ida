@@ -257,10 +257,12 @@ caption, td, th {
 }
       
 .read-more-state ~ .read-more-trigger:before {
+    font-family: 'Playfair Display', serif !important; 
     content: 'Läs mer';
 }
       
 .read-more-state:checked ~ .read-more-trigger:before {
+    font-family: 'Playfair Display', serif !important; 
     content: 'Läs mindre';
 }
       
